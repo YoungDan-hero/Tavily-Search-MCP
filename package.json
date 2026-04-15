@@ -1,0 +1,16 @@
+{
+  "name": "tavily-mcp-server",
+  "version": "0.0.1",
+  "author": "yangdan",
+  "description": "Tavily Search MCP Server",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@tavily/core": "^0.0.2",
+    "zod": "^3.23.0"
+  }
+}
