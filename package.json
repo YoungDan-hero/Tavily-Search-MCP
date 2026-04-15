@@ -4,7 +4,10 @@
   "author": "yangdan",
   "description": "Tavily Search MCP Server",
   "type": "module",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": {
+    "tavily-mcp": "./index.js"
+  },
   "scripts": {
     "build": "tsc"
   },
