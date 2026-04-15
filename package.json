@@ -1,6 +1,6 @@
 {
   "name": "tavily-mcp-server",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "yangdan",
   "description": "Tavily Search MCP Server",
   "type": "module",
@@ -12,15 +12,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "ncc build index.js -o dist --minify --no-cache"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "@tavily/core": "^0.0.2",
-    "zod": "^3.23.0"
+    "build": "esbuild index.js --bundle --platform=node --format=esm --minify --outfile=dist/index.js --banner:js=\"#!/usr/bin/env node\""
   },
   "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@tavily/core": "^0.0.2",
     "@types/node": "^25.6.0",
-    "@vercel/ncc": "^0.38.4"
+    "esbuild": "0.28.0",
+    "zod": "^3.23.0"
   }
 }
