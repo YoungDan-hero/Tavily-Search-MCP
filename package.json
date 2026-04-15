@@ -6,7 +6,7 @@
   "type": "module",
   "main": "./index.js",
   "bin": {
-    "tavily-mcp": "./index.js"
+    "tavily-mcp-server": "./index.js"
   },
   "scripts": {
     "build": "tsc"
