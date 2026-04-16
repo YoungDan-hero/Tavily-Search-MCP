@@ -1,0 +1,11 @@
+startCommand:
+  type: stdio
+  config:
+    command: npx
+    args:
+      - "-y"
+      - "github:你的GitHub用户名/你的仓库名"
+  environmentVariables:
+    - name: TAVILY_API_KEY
+      description: Tavily Search API Key
+      required: true
