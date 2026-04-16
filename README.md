@@ -17,11 +17,22 @@
 
 ### 🛠️ 第一步：下载核心运行文件
 
-请根据你的操作系统，复制并运行对应的命令。这会将最新的 `index.js` 下载到你的电脑中。
+你需要把仓库里的 `dist/index.js` 保存到本机任意位置（建议改名为 `tavily-mcp.js`，便于识别）。任选下面一种方式即可。
 
 **前置条件**：已安装 [Node.js](https://nodejs.org/)（推荐 v18 或以上），并已获取 [Tavily API Key](https://app.tavily.com/home)（以 `tvly-` 开头）。
 
-#### MacOS / Linux 用户
+#### 方式一：在 GitHub 网页下载（无需命令行）
+
+1. 在浏览器中打开本仓库的 **`dist/index.js`** 页面：  
+   [在 GitHub 中查看 dist/index.js](https://github.com/YoungDan-hero/Tavily-Search-MCP/blob/main/dist/index.js)
+2. 点击右上角的 **`Raw`**（原始文件），浏览器会打开纯文本页面。
+3. 使用浏览器的 **另存为**（`Ctrl+S` / `Cmd+S`）保存到你想放的位置，例如保存为 `tavily-mcp.js`。  
+   - 若浏览器直接下载了文件，请确认文件名是 `.js`，不要变成 `.txt`。
+4. 记下该文件的 **完整路径**，下一步配置 `args` 时要填这个路径。
+
+> 也可直接打开 [原始文件直链](https://github.com/YoungDan-hero/Tavily-Search-MCP/raw/main/dist/index.js)，多数浏览器会触发下载；若只显示代码，同样用 **另存为** 保存为 `tavily-mcp.js` 即可。
+
+#### 方式二：使用命令行下载（MacOS / Linux）
 
 打开 **终端 (Terminal)**，复制并运行：
 
