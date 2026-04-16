@@ -5,14 +5,17 @@
   "description": "Tavily Search MCP Server",
   "type": "module",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "build": "tsc"
   },
-  "devDependencies": {
+  "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "@tavily/core": "^0.0.2",
-    "@types/node": "^25.6.0",
-    "typescript": "^6.0.2",
     "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2"
   }
 }
