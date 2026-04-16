@@ -12,7 +12,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "esbuild index.js --bundle --platform=node --format=esm --minify --outfile=dist/index.js --banner:js=\"#!/usr/bin/env node\""
+    "build": "esbuild index.js --bundle --platform=node --format=esm --minify --outfile=dist/index.js --banner:js=\"#!/usr/bin/env node\"",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
