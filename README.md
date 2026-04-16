@@ -1,6 +1,6 @@
 # 🌐 Tavily Search MCP Server
 
-基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 标准开发的网络搜索服务。通过接入 [Tavily API](https://app.tavily.com/home)，为大语言模型（如 OpenClaw、Claude Desktop 等）赋予实时、准确的互联网搜索与内容提取能力。
+基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 标准开发的网络搜索服务。通过接入 [Tavily API](https://app.tavily.com/home)，为agent（如 OpenClaw、Claude Desktop 等）赋予实时、准确的互联网搜索与内容提取能力。
 
 ## ✨ 特性
 
@@ -26,7 +26,7 @@
 1. 在浏览器中打开本仓库的 **`dist/index.js`** 页面：  
    [在 GitHub 中查看 dist/index.js](https://github.com/YoungDan-hero/Tavily-Search-MCP/blob/main/dist/index.js)
 2. 点击右上角的 **`Raw`**（原始文件），浏览器会打开纯文本页面。
-3. 使用浏览器的 **另存为**（`Ctrl+S` / `Cmd+S`）保存到你想放的位置，例如保存为 `tavily-mcp.js`。  
+3. 使用浏览器的 **另存为**（`Ctrl+S` / `Cmd+S`）保存到你想放的位置，例如保存为 `tavily-mcp.js`。
    - 若浏览器直接下载了文件，请确认文件名是 `.js`，不要变成 `.txt`。
 4. 记下该文件的 **完整路径**，下一步配置 `args` 时要填这个路径。
 
