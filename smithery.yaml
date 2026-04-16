@@ -4,7 +4,7 @@ startCommand:
     command: npx
     args:
       - "-y"
-      - "github:你的GitHub用户名/你的仓库名"
+      - "github:YoungDan-hero/Tavily-Search-MCP"
   environmentVariables:
     - name: TAVILY_API_KEY
       description: Tavily Search API Key
