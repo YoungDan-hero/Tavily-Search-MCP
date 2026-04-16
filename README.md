@@ -31,7 +31,7 @@
     "servers": {
       "tavily-search-server": {
         "command": "npx",
-        "args": ["-y", "github:YoungDan-hero/Tavily-Search-MCP"],
+        "args": ["-y", "https://github.com/YoungDan-hero/Tavily-Search-MCP"],
         "env": {
           "TAVILY_API_KEY": "在此处替换为你的_tvly_API_Key"
         }
